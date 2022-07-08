@@ -14,12 +14,12 @@ my_dict={
         'f':{'Lol':['L','o','l']}
     },
 }
-# 1  Вывести на консоль значение ключа 'foo'
-# print(my_dict.get('foo'))
-
-# 2  Вывести на консоль значение ключа 'b'
+# 4  Снова вывести на консоль значение ключа 'b'
 # print(my_dict['foo']['b'])
 
-# 3  Добавить в my_list 44
-# my_list.append(44)
-# print(my_list)
+# 5  Вывести множество
+# print(my_dict)
+
+# 6  Добавить во множество элемент 9
+# my_dict.setdefault(9)
+# print(my_dict)
